@@ -1,0 +1,19 @@
+touch Makefile
+touch requirements.txt
+touch README.md
+touch Dockerfile
+
+python3 -m venv ./venv
+
+https://flask.palletsprojects.com/en/stable/quickstart/#a-minimal-application
+
+
+https://devhints.io/dockerfile
+https://docs.docker.com/get-started/docker_cheatsheet.pdf
+
+docker run -p <host_port>:<container_port> <image_name>
+
+docker build -t demo_docker .
+
+
+docker run -p 9000:8000 demo_docker
